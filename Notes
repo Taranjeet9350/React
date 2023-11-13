@@ -1,0 +1,54 @@
+What is package.json?
+What is the purpose of package.json?
+Tilde (~) and carat (^), and their difference
+What is package-lock.json?
+What is the purpose of package-lock.json?
+Comparing package.json and package-lock.json
+What is the role of npm-shrinkwrap.json in versioning?
+
+https://www.atatus.com/blog/package-json-vs-package-lock-json/
+
+======================================================================
+
+Features Of Parcel:
+
+Parcel is a fast, zero-configuration web application bundler. It simplifies the process of building modern web applications by providing a seamless and efficient development experience. Here are some key features of Parcel:
+
+1. **Zero Configuration:**
+   - One of the standout features of Parcel is its zero-configuration setup. You can start using Parcel without any complex configuration files. It automatically detects and configures your project based on the files it finds.
+
+2. **Out-of-the-Box Support:**
+   - Parcel supports various web technologies out of the box, including JavaScript, TypeScript, CSS, SCSS, HTML, and more. There is no need for additional configuration to handle these file types.
+
+3. **Automatic Dependency Resolution:**
+   - Parcel automatically analyzes your project's dependencies and constructs a dependency graph. It efficiently bundles and optimizes these dependencies, eliminating the need for manual configuration.
+
+4. **Hot Module Replacement (HMR):**
+   - Parcel comes with built-in support for Hot Module Replacement, allowing you to see changes in real-time without a full page reload. This significantly speeds up the development process.
+
+5. **Code Splitting:**
+   - Parcel supports automatic code splitting, allowing you to split your code into smaller chunks. This results in faster initial page loads and better performance, especially for larger applications.
+
+6. **Built-in Development Server:**
+   - Parcel includes a development server that makes it easy to test and view your application during development. The server supports HTTPS and provides a simple way to share your local development environment with others.
+
+7. **Production Optimization:**
+   - When building for production, Parcel automatically optimizes your code, including minification, tree shaking, and other performance enhancements. It generates optimized bundles for better load times.
+
+8. **Support for Various Module Formats:**
+   - Parcel supports a variety of module formats, including CommonJS, ES6 Modules, and AMD. This flexibility allows you to use different module systems based on your project's needs.
+
+9. **Extensibility:**
+   - While Parcel aims to be zero-config, it also provides hooks and options for more advanced configurations when needed. Developers can extend and customize Parcel to fit specific requirements.
+
+10. **Community and Active Development:**
+    - Parcel has an active community and is regularly updated with new features and improvements. It continues to evolve, keeping up with the latest web development standards.
+
+11. **Built-in Support for WebAssembly:**
+    - Parcel provides built-in support for WebAssembly, allowing you to include and use WebAssembly modules in your projects seamlessly.
+
+12. **Official Plugins:**
+    - Parcel has an ecosystem of official plugins that extend its functionality, adding support for additional features or technologies.
+
+Overall, Parcel offers a modern and developer-friendly approach to web application bundling, making it an attractive choice for projects that prioritize simplicity and efficiency.
+=====================================================================
