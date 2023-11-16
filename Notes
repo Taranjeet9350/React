@@ -54,3 +54,38 @@ Overall, Parcel offers a modern and developer-friendly approach to web applicati
 =====================================================================
 
 React Element vs React Functional Component
+
+Config Driven UI -> UI will be changed wrt data coming from backend. Ex. carousel in swiggy based on location. It will be dofferent for different locations. Based on locations it will change.
+
+Types of import and export => Default and named
+
+can i do a default and a named export together?
+
+   -Yes, you can use both default and named exports in the same module. Here's an example:
+                // MyModule.js
+
+               // Named export
+               export const myFunction = () => {
+               // function implementation
+               };
+
+               // Named export
+               export const myVariable = 42;
+
+               // Default export
+               const defaultExportedValue = "This is the default export.";
+               export default defaultExportedValue;
+
+
+               In the example above, myFunction and myVariable are named exports, and defaultExportedValue is the default export. You can then import them in another module like this:
+
+               // AnotherModule.js
+
+               // Importing the default export
+               import defaultValue from './MyModule';
+
+               // Importing named exports
+               import { myFunction, myVariable } from './MyModule';
+
+               // You can use defaultValue, myFunction, and myVariable here
+
