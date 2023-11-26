@@ -55,7 +55,7 @@ Overall, Parcel offers a modern and developer-friendly approach to web applicati
 
 React Element vs React Functional Component
 
-Config Driven UI -> UI will be changed wrt data coming from backend. Ex. carousel in swiggy based on location. It will be dofferent for different locations. Based on locations it will change.
+Config Driven UI -> UI will be changed wrt data coming from backend. Ex. carousel in swiggy based on location. It will be different for different locations. Based on locations it will change.
 
 Types of import and export => Default and named
 
@@ -89,3 +89,5 @@ can i do a default and a named export together?
 
                // You can use defaultValue, myFunction, and myVariable here
 
+Reconciliation, React Fiber, Virtual DOM
+   - https://github.com/acdlite/react-fiber-architecture
