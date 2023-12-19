@@ -22,7 +22,7 @@ const Body = () => {
             <div className="filter">
                 <button className="filter-btn" 
                 onClick={() => {
-                     const filteredList = listOfRestaurant.filter((res) => res.info.avgRating >= 4.0) 
+                     const filteredList = listOfRestaurant.filter((res) => res.info.avgRating >= 4.5) 
                    
                     setListOfRestaurant(filteredList);
                      console.log(filteredList);
