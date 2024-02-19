@@ -2,8 +2,9 @@ import { CDN_URL } from "../utils/constants";
 
 const RestCards = (props) => {
     const {resData} = props  
-    console.log(resData);
+    console.log("resdata " +resData);
     const {name, cuisines, sla, avgRating} = resData?.info;
+   
     return (
         <div className="rest-cards">
             <img className="img" src={ CDN_URL+ resData?.info.cloudinaryImageId}/>

@@ -1,8 +1,10 @@
+import User from "./User";
+
 const About = () => {
     return(
     <div>
          <h1>This is about Page!</h1>
-        { console.log("hello")}
+         <User />
     </div>
     )
 }
